@@ -49,6 +49,15 @@ body {
   padding: 3px;
 }
 
+.mobile-margin {
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-margin {
+    font-size: 24px;
+  }
+}
+
 .bar1,
 .bar2,
 .bar3 {
@@ -112,7 +121,7 @@ body {
 .item-1,
 .item-2,
 .item-3 {
-  min-height: 60vh;
+  min-height: 40vh;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
 }
 
