@@ -190,8 +190,6 @@ body {
 /*###########skills##################*/
 
 .skills-icon {
-  background: #242424;
-  clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
   transition: all 1s ease;
 }
 
@@ -209,6 +207,13 @@ body {
   color: #f1fffa;
 }
 
+.center-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*###########about############*/
 
 #about .title a {
@@ -218,7 +223,6 @@ body {
 #about {
   min-height: 40vh;
   background: #909090;
-  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
 
 .about-text a {
